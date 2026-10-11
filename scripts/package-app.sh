@@ -17,5 +17,5 @@ cp 图形版使用说明.md "$YELLOWPAGE_FOLDER/使用说明.md"
 cp 验证说明.md "$YELLOWPAGE_FOLDER/验证说明.md"
 cp LICENSE "$YELLOWPAGE_FOLDER/LICENSE"
 python3 scripts/archive-app.py "$YELLOWPAGE_FOLDER" "$YELLOWPAGE_OUTPUT/有头有脸-$YELLOWPAGE_VERSION-macOS-AppleSilicon-GUI.zip"
-shasum -a 256 "$YELLOWPAGE_OUTPUT/有头有脸-$YELLOWPAGE_VERSION-macOS-AppleSilicon-GUI.zip" > "$YELLOWPAGE_OUTPUT/SHA256SUMS.txt"
+(cd "$YELLOWPAGE_OUTPUT" && shasum -a 256 "有头有脸-$YELLOWPAGE_VERSION-macOS-AppleSilicon-GUI.zip" > SHA256SUMS.txt)
 printf '已打包：%s\n' "$YELLOWPAGE_OUTPUT"
