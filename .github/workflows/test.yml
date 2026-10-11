@@ -1,0 +1,19 @@
+name: Test and build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: swift --version
+      - name: Synthetic-data tests
+        run: bash scripts/test.sh
+      - name: Build app
+        run: bash scripts/build-app.sh

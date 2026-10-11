@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>cn.lookuplus.yellowpage.cli</string>
+<key>CFBundleName</key><string>有头有脸</string>
+<key>CFBundleVersion</key><string>0.1.0</string>
+<key>NSContactsUsageDescription</key><string>读取现有名片以匹配短信签名，并在你确认预览后补充号码。</string>
+<key>NSAppleEventsUsageDescription</key><string>使用你指定的兼容写入方式，让联系人 App 向现有名片补充号码或撤销本工具的添加。</string>
+</dict></plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleIdentifier</key><string>cn.lookuplus.yellowpage.desktop</string>
+  <key>CFBundleName</key><string>有头有脸</string>
+  <key>CFBundleDisplayName</key><string>有头有脸</string>
+  <key>CFBundleExecutable</key><string>YellowPageApp</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>0.3.4</string>
+  <key>CFBundleVersion</key><string>6</string>
+  <key>CFBundleIconFile</key><string>AppIcon</string>
+  <key>LSMinimumSystemVersion</key><string>13.0</string>
+  <key>NSPrincipalClass</key><string>NSApplication</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>CFBundleDevelopmentRegion</key><string>zh_CN</string>
+  <key>CFBundleLocalizations</key><array><string>zh_CN</string></array>
+  <key>NSContactsUsageDescription</key><string>扫描现有企业名片，核对号码归属，并在你确认后补充短信号码。演示模式不访问通讯录。</string>
+  <key>NSAppleEventsUsageDescription</key><string>在你确认添加或撤销时，通过系统「联系人」App 保存号码。</string>
+</dict></plist>

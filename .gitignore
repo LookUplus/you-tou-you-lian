@@ -1,0 +1,11 @@
+.build/
+.swiftpm/
+dist/
+.DS_Store
+*.plan.json
+*.journal.json
+private/
+.env
+.env.*
+*.p12
+*.mobileprovision
